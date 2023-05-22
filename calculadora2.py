@@ -46,7 +46,7 @@ alto = 3
 sali = StringVar()
 
 # FONDO
-ventana.config(background='#F5A9F2')
+ventana.config(background='#F6CEF5')
 # Creamos los botones
 btnSqr = tk.Button(ventana, text="sqrt", width=ancho, height=alto, font=('arial',10), bg='#BE81F7', command=lambda:entrada('sqrt')).place(x= 30, y=120)
 btnCe = tk.Button(ventana, text="CE", width=ancho, height=alto, font=('arial',10), bg='#BE81F7', command=limpiar).place(x= 110,y=120)
